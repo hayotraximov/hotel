@@ -1,0 +1,46 @@
+###
+POST http://localhost:8080/hotel/add
+Content-Type: application/json
+
+{
+"name": "Toshkents Mexmonxonasi"
+}
+
+###
+PUT http://localhost:8080/hotel/2
+Content-Type: application/json
+
+{
+  "name": "Toshkent Mexmonxonasi"
+}
+
+###
+GET http://localhost:8080/hotel/?page=0
+
+###
+GET http://localhost:8080/hotel/1
+
+
+#room uchun
+
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+   "number": 15,
+   "size": 31.2,
+   "floor": 2,
+   "hotelid": 1
+}
+
+###
+PUT http://localhost:8080/3
+Content-Type: application/json
+
+{
+  "number": 18,
+  "size": 31.2,
+  "floor": 2,
+  "hotelid": 1
+}
